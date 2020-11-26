@@ -1,0 +1,118 @@
+html , body{
+    margin: 0;
+    padding: 0;
+  height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+/*header et navbar*/
+h1{
+    color:#00E5FF;
+}
+#header{
+    background-color: black;
+}
+.navheader{
+    font-size: 20px;
+}
+h1,.navheader{
+
+    color:#00E5FF;
+    animation-name: example;
+    animation-duration: 30s;
+    }
+    
+    @keyframes example {
+    0%   {color:#00E5FF;}
+    20%  {color: yellow;}
+    40%  {color: blue;}
+    60% {color: green;}
+    80%{color: red;}
+    100%{color: wheat;}
+    }
+.buttonNav{
+    background-color: #00E5FF;
+}
+/*fin header*/
+/*début main*/
+.titleHome{
+    border: solid 1px black;
+    color: #00E5FF;
+    background-color: black;
+}
+/* fin main */
+/* début footer */
+#footer{
+    background-color: black;
+    height: 10%;
+   
+}
+/* fin footer */
+
+/* Formulaire */
+    
+.login{
+    background-color: black;
+    box-shadow: 10px 10px 10px  white;
+    color: #00E5FF;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+/*fin de formulaire*/
+/*page de test*/
+.description{
+    color:white;
+    background-color: black;
+    
+}
+.positiveReview , .negativeReview{
+    color: white;
+    background-color: black;
+    border-radius: 2% ;
+
+}
+/*notation*/
+.rating a {
+    float: right;
+    color:orange;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+ }
+ /* .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ } */
+ /*commentaire*/
+ .comment{
+     color: white;
+     background-color: black;
+    
+ }
+ .commentbox{
+     
+     background-color: gray;
+ }
+/* fleche js */
+.btnarrow {
+    height: 100px;
+    width: 100px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.arrow {
+    height: 50%;
+    width: 50%;
+    opacity: 0.5;
+ 
+
+}
+
+  
