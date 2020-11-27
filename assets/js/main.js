@@ -1,7 +1,6 @@
 // fleche 
 let btn = document.querySelector('.btnarrow');
 btn.addEventListener('click', inClick);
-
 function inClick(){
     //fonction qui effectue au clique une remonté en haut de page
     window.scrollTo({
